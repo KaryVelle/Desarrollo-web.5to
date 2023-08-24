@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de HTML</title>
+    <meta name="description" content="Este documento es el primer draft con Visual Stucio Code y HTML.">
+    <link rel="icon" href="img/Captura de pantalla 2023-06-05 091700.png"/>
+  <link rel="stylesheet" href="css/style.css">
+</head> 
+<body>
+    <h1 id="inicio">Fundamentos De HTML</h1>
+    <!-- ALT + SHIFT + A -->
+
+    <h2>Índice</h2>
+    <!-- ul>li*"n">a (a=link) -->
+    <ul>
+      <li><a href="#encabezados"> Encabezados</a></li>
+      <li><a href="#etiquetas-textos"> Etiquetas de Textos</a></li>
+      <li><a href="#listas"> Listas</a></li>
+      <li><a href="#tablas"> Tablas</a></li>
+      <li><a href="#enlaces">Enlaces</a></li>
+      <li><a href="#imagenes">Imagenes</a></li>
+      <li><a href="#audio-video"></a>Audio y Video</li>
+    </ul>
+
+
+    <h2 id="encabezados">Encabezados</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+    <a href="#inicio">Volver</a>
+
+    <hr>
+
+  <h2 id="etiquetas-textos">Tipos de etiquetas para Textos</h2>
+
+  <ul>
+    <li> <b>Negritas</b></li> <br>
+    <li><i>Cursiva</i></li> <br>
+    <li>  <u>Subrayado</u></li> <br>
+    <li><s>Tachado</s></li>
+    <li> <p>H<sub>2</sub>O</p></li>
+    <li> <p>E=MC<sup>2</sup></p></li>
+    <li><mark>Aywey</mark></li>
+    
+  </ul>
+
+  <a href="#inicio">Volver</a>
+  <hr>
+
+  <h1 id="listas">Listas</h1>
+
+  <h2>Lista Ordenada</h2>
+  p>Una lista <b>ordnenada</b> es una lista que, en vez de tener viñetas, tiene números.</p>
+  <ol>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  
+
+  <h2>Lista Desordenadas</h2>
+  <p>Una lista <b>desordenada</b> es una lista que, en vez de tener números, tiene viñetas.</p>
+  <ul>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ul>
+  
+
+  <h2>Lista Ordenada Romano</h2>
+  <p>Una lista con números romanos requiere<b>"ol type="i""</b> y es una lista que, en vez de tener viñetas, tiene números.</p>
+  <ol type="i">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  
+
+  <h2>Lista Ordenada Revertida</h2>
+  <p>Una lista con números ordenados revertidos requiere<b>"ol reversed"</b> y es una lista que, en vez de tener viñetas, tiene números.</p>
+  <ol reversed>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  
+
+  <h2>Lista Ordenada Iniciando Desde...</h2>
+  <p>Una lista con números ordenados inicando desde un número determinado, requiere<b>"ol start="n""</b> y es una lista que, en vez de tener viñetas, tiene números.</p>
+  <ol start="100">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  
+
+  <h2>Lista Ordenada Tipo A</h2>
+  <p>Una lista con letras y requiere<b>"ol type="A""</b> y es una lista que, en vez de tener viñetas, tiene círculos.</p>
+  <ol type="A">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  
+
+  <!-- SHIFT + ATL + FLECHAS = COPIAR -->
+
+  <h2>Lista Ordenada Tipo Circle</h2>
+  <p>Una lista con un tipo de viñetas, requiere<b>"ol start="100""</b> y es una lista que, en vez de tener viñetas, tiene círculos.</p>
+  <ul type="circle">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ul>
+
+  
+  <h2>Lista Ordenada Tipo Square</h2>
+  <p>Una lista con un tipo de viñetas, requiere<b>"ol start="100""</b> y es una lista que, en vez de tener viñetas, tiene cuadrados.</p>
+  <ul type="circle">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ul>
+
+  <a href="#inicio">Volver</a>
+  <hr>
+
+  <h2 id="tablas">Tablas</h2>
+
+  <!--EMMET = TD * n -->
+  <table border="1"> 
+    
+    <tr>
+      <th>País</th>
+      <th>Ciudad</th>
+      <th>Continente</th>
+      <th>Comida</th>
+    </tr>
+    
+    <tr>
+      <td>México</td>
+      <td>CDMX</td>
+      <td>América</td>
+      <td>Tacos</td>
+    </tr>
+    
+    <tr>
+      <td>Japón</td>
+      <td>Tokio</td>
+      <td>Asia</td>
+      <td>Ramen</td>
+    </tr>
+    
+    <tr>
+      <td>Italia</td>
+      <td>Roma</td>
+      <td>Europa</td>
+      <td>Pasta</td>
+    </tr>
+  
+  </table>
+  <a href="#inicio">Volver</a>
+
+  <hr>
+
+  <h2 id="enlaces">Enlances</h2>
+
+  <p>Para hacer un enlace, se necesita una <b>href</b>, y allí se hace el <i>hipervínculo. </i> <br> Se necesita declarar con el atajo EMMET "a" </p>
+
+  <ol>
+
+    <li> En la misma pestaña <a href="otra-pagina.html" >Otra página</a> </li>
+    <li> En una nueva pestaña <a href="https://www.youtube.com/" target="_blank"> Youtube</a> <i>"target= "blank""</i></li>
+    <li> Con <b>ID</b> <a href="#inicio"> Regresar al inicio</a> <i>"target= "# + ID""</i></li>
+  </ol>
+
+  <hr>
+
+  <h2 id="imagenes">Imagenes</h2>
+  <p>Tipos de imágenes yei</p>
+  
+   
+    <h3>png</h3> 
+     <img src="img/gatPNG.png" alt="Gato PNG">
+
+
+    <h3>JPG</h3> 
+    <img src="img/jpgMeme.jpg" alt="Meme JPG"></b>
+
+
+    <h3>GIF</h3>
+    <p><i>Es el texto de la imagen, sirve para la accesibilidad</i></p>
+     <img src="img/GIFMEME.gif" alt="GIF Meme"> <br>
+
+    <h3>ALT</h3>
+    <p><i>Texto de la imagen para accesibilidad</i></p>
+
+
+  <a href="#inicio">Volver</a>
+
+  <hr>
+
+  <h2 id="audio-video">Audio y Video</h2>
+
+<h3>Incorporando mp3</h3>
+  <audio src="https://www.youtube.com/watch?v=sO6r8pXZKwg" controls muted autoplay preloaded></audio>
+
+  <h3>Incorporando Video Local</h3>
+  <video src="img/StarMap1.mp4" controls preload> Void Rider</video>
+
+  <h3>Incoroprando desde Youtube</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4_0hiAWzzoM?si=eCF3AWHhk-VQ5BlO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+
+
+
+</body>
+</html>
