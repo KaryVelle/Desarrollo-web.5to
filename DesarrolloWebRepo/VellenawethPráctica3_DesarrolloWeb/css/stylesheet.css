@@ -1,0 +1,230 @@
+
+html {
+  font-family: 'Special Elite', cursive;
+    font-size: 16px;
+    background-color: black;
+    color:whitesmoke;
+    scroll-behavior: smooth;
+    
+  }
+
+  h2{
+    color:#001425;
+  }
+
+  header {
+
+    text-align: center;
+    
+    }
+
+    .flex-30
+    {
+      flex: 30%;
+    }
+  
+    .temp-meme
+    {
+      display: flex;
+    }
+
+
+    img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .left-align
+  {
+    align-items: left;
+   
+  }
+
+  
+  .right-align
+  {
+    align-items: right;
+    text-align: right;
+  }
+
+
+ .row {
+    display: flex;
+    
+  }
+  
+  .column {
+    flex: 50%;
+    margin: 3%;
+    padding: 5%;
+    background-image: url(/css/paper.jpg);
+     color: black;
+     font-size: small;
+
+   
+  }
+
+  .poster
+  {
+    max-width:60%;
+    max-height:800px;
+  }
+
+  poster:hover
+  {
+  filter: blur(8px);
+  }
+
+  .column-inside {
+    flex: 50%;
+    margin: 3%;
+    padding: 5%;
+     color: black;
+     font-size: small;
+  }
+
+  
+
+  .temporadas
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(/css/paper.jpg);
+    text-align: left;
+    color: black;
+    padding: 5%;
+    display: flex;
+  }
+
+  .row1{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(/css/paper.jpg);
+    display: flex;
+    
+    align-items: center;
+  
+  }
+
+  .column1
+  {
+    padding-left: 5%;
+
+    flex: 10%;
+    
+    color:black;
+    text-align: center;
+    
+  }
+  .column2
+  {
+
+    flex: 30%;
+    
+    color:black;
+    text-align: center;
+}
+    
+.column3
+  {
+
+    flex: 60%;
+    
+    color:black;
+    text-align: center;
+    padding-right: 5%;
+    
+  }
+  h2{
+    text-align: center;
+  }
+
+  .img-tabla
+  {
+    
+        height: auto;
+        border-radius: 15px;
+        
+        
+  }
+
+  .titulo-tabla
+  {
+text-align: center;
+color: whitesmoke;
+size: 18px;
+  }
+
+  .temporadas-lista
+  {
+    margin-left: 2%;
+    flex: 30%;
+    align-items: center;
+    color: black;
+    
+  }
+
+
+
+  .meme{
+    flex: 50%;
+   
+    margin: 5%;
+    background-image: url(/css/paper.jpg);
+    align-items: center;
+    text-align: center;
+    color: black;
+   
+  }
+
+#top-button
+{
+  size: 50%;
+}
+
+
+#back-button {
+ 
+  background-color: #ddeaff;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #24292E;
+  display: inline-block;
+  font-size: 30px;
+  padding: 6px 16px;
+  align-items: center;
+  margin-left: 48%;
+  
+}
+
+#back-button:hover {
+  background-color: #1f2123;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+
+a:link {
+  color: rgb(109, 109, 109);
+}
+
+
+a:visited {
+  color: rgb(0, 43, 0);
+}
+
+
+a:hover {
+  color: rgb(34, 94, 95);
+}
+
+
+iframe
+{
+  width: 100%;
+}
+  
+
+
+
