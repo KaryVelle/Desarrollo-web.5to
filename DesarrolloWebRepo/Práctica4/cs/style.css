@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+:root
+{
+    --first-color:;
+    --second-color: rgb(23, 18, 38);
+    --black-color: rgb(0, 0, 0);
+    --white-color: rgb(255, 255, 255);
+}
+
+
+html {
+    font-family: 'Arvo', serif;
+    font-size: 16;
+    background-color: black;
+    background-attachment: fixed;
+    
+    
+}
+
+h1{
+color: azure;
+}
+
+.grid-head
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
