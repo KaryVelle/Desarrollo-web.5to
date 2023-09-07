@@ -1,0 +1,50 @@
+/* Var */
+:root {
+    --color-oscuro: #333;
+    --color-claro: #f0f0f0;
+    --color-enlace: blue;
+}
+
+/* Estilos generales */
+html {
+    background-color: var(--color-oscuro);
+    color: var(--color-claro);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var(--color-enlace);
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+
+img,
+iframe,
+table {
+    max-width: 100%;
+    height: auto;
+}
+
+.centra{
+    text-align: center;
+    }
+    
+
+.linea-horizontal {
+    border: 3px double var(--color-claro);
+}
+
+
+.encabezado-enlace {
+    color: var(--color-enlace);
+}
+
+
+.imagen-redondeada {
+    border-radius: 50%;
+}
